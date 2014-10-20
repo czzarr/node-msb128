@@ -1,6 +1,6 @@
 {
   "name": "msb128",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Read and write MSB base 128 encoded variable length integers",
   "main": "index.js",
   "directories": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/czzarr/node-msb128",
   "devDependencies": {
+    "bn.js": "^0.14.1",
     "buffer-equal": "0.0.1",
     "tape": "^3.0.0"
   }
